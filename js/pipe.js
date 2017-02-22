@@ -44,7 +44,7 @@ Pipe.prototype = {
 	calcPipeHeight: function() {
 		var pipeTopHeight = Math.random() * 200 + 50;
 		this.pipeTopY = pipeTopHeight - this.imgH;
-		this.pipeDownY = pipeTopHeight + 150;
+		this.pipeDownY = pipeTopHeight + 60;
 	}
 };
 
