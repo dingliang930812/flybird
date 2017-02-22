@@ -3,7 +3,8 @@
 
 // 构造函数
 var Bird = function( config ) {
-]
+	// config 参数是一个对象，因为可能有多个参数
+	// 与小鸟有关的属性，都放到构造函数中
 	// this.属性名 = 属性值;
 	this.img = config.img;       // 小鸟图片
 	this.imgW = this.img.width / 3;      // 小鸟图片的宽度
